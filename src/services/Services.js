@@ -4,7 +4,7 @@
 
 const apiKey = '19c3f1aaab8d52cdfc3113691c6a7436';
 const marker ='417715';
-const url='http://api.travelpayouts.com/v1/flight_search';
+const url='https://api.travelpayouts.com/v1/flight_search';
 export default class Services{
 //e9d09b976dda58e65e5b9a9d9b781e1d apiKey `${apiKey}:beta.ticketSerch.ru:ru:${marker}:${passagers}:0:0:${departure}:${origin}:${destination}:Y:192.168.0.101`
     async getIATA (){
